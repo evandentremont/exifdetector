@@ -8,7 +8,7 @@ chrome.extension.sendMessage({}, function(response) {
 	var readyStateCheckInterval = setInterval(function() {
 	if (document.readyState === "complete") {
 		clearInterval(readyStateCheckInterval);
-		
+
 		var s = document.createElement('script');
 		s.src = chrome.extension.getURL('src/inject/exif.js');
 		s.onload = function() {
@@ -31,7 +31,7 @@ chrome.extension.sendMessage({}, function(response) {
 					this.style.border = "1px solid green";
 				}
 				else {
-					console.log(this.src + ' has no GPS data')
+					//console.log(this.src + ' has no GPS data')
 					this.style.border = "1px solid red";
 				}
 			});
