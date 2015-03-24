@@ -13,6 +13,8 @@ The project is intended to show the prevalence (or lack thereof) of GPS tagged p
 
 Clone the repo, open google chrome, go to settings, extensions, and enable developer mode. Then open the extension folder.
 
+A sample image is avaliable at https://raw.githubusercontent.com/evandentremont/exifdetector/master/exifsample.jpg
+
 ## Contributors
 
 Pull requests encouraged.
